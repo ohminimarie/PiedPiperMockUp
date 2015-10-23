@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline;
+  height: 100%;
+}
+
+header {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product p {
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+
+}
+
+.mainContent {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  text-align: left;
+
+}
+
+.product {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+  margin: 20px;
+  padding: 0;
+  border: 2px solid black;
+  height: 80%;
+}
